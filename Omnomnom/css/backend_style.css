@@ -1,1 +1,31 @@
-style backend
+body{
+	background-color: green;
+}
+
+/*HEADER STYLES*/
+#header{
+	width: 100%;
+	height: 50px;
+	background-color: purple;
+}
+
+/*NAV STYLES*/
+#navigation{
+	width: 100%;
+	height: 50px;
+	background-color: blue;
+}
+
+/*CONTENT STYLES*/
+#content{
+	width: 950px;
+	height: 300px;
+	background-color: pink;
+}
+
+/*FOOTER STYLES*/
+#footer{
+	width: 100%;
+	height: 50px;
+	background-color: red;
+}
