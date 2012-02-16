@@ -71,12 +71,52 @@
 		width: auto;
 		height: 120px;
 	}
-	
+	#tilbake {
+		float: right;
+	}
 	h3 {
 		border-top: 2px dashed black;
 		clear: both;
 		margin: 25px;
 		padding: 15px;
+	}
+	#ja {
+		text-align: center;
+	}
+	#search {
+		margin-left: 15px;	
+		width: 30%;
+	}
+	select {
+		width: 30%;
+			margin-left: 15px;
+	}
+	.test {
+		float: left;
+		width: 24%;
+		margin-top: 2%;
+	}
+	.test1 {
+		float: left;
+		width: 24%;
+		margin-top: 4%;
+		margin-left: 1%;
+	}
+	#liste {
+		text-align: left;
+	}
+	.list {
+		list-style-type: none;
+		display: inline-block;
+		
+	}
+	.image {
+		width: 250px;
+		height: auto;
+		margin: 15px;
+	}
+	.title {
+		float: right;
 	}
 	/*****************
 		Footer
