@@ -1,31 +1,127 @@
-body{
-	background-color: green;
+/***************************************************
+RESET
+***************************************************/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 
-/*HEADER STYLES*/
+
+/***************************************************
+GENERAL STYLING
+***************************************************/
+body{
+	background-color: green;
+	padding: 0px;
+	margin: 0px;
+}
+
+
+/***************************************************
+HEADER STYLING
+***************************************************/
 #header{
 	width: 100%;
 	height: 50px;
-	background-color: purple;
+	background-color: black;
 }
 
-/*NAV STYLES*/
+#login{
+	float: right;
+	margin: 10px;
+	color: white;
+}
+
+
+/***************************************************
+CONTAINER STYLING
+***************************************************/
+#container{
+	width: 80%;
+	height: 700px;
+	background-color: white;
+	margin: 150px auto 30px;
+	border-radius:10px;
+	-moz-border-radius:10px; /* Firefox 3.6 and earlier */
+	-webkit-border-radius:10px;
+	-o-border-radius:10px;
+	-ms-border-radius:10px;
+	padding: 20px;
+	color: black;
+}
+
 #navigation{
 	width: 100%;
-	height: 50px;
+	height: 180px;
 	background-color: blue;
 }
 
-/*CONTENT STYLES*/
-#content{
-	width: 950px;
-	height: 300px;
-	background-color: pink;
+#tabone{
+	float: left;
+	margin: 30px;
 }
 
-/*FOOTER STYLES*/
+#tabtwo{
+	float : left;
+	margin: 30px;
+}
+
+#tabthree{
+	float : left;
+	margin: 30px;
+}
+
+#content{
+}
+
+
+/***************************************************
+FOOTER STYLING
+***************************************************/
 #footer{
 	width: 100%;
 	height: 50px;
-	background-color: red;
+	background-color: black;
 }
+
+
