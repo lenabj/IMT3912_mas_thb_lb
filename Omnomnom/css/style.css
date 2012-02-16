@@ -3,9 +3,18 @@
 
 
 	body {
-		background-color: #A4A4A4;
+		background-color: #A4A4A4; /**Grå**/
+		margin: 0px;
+		font-family: Tahoma;
 	}
-
+	/*****************
+		Top
+	*****************/
+	#top {
+		width: 100%;
+		background-color: #100A08;
+		min-height: 50px;
+	}
 	/*****************
 		Header
 	*****************/
@@ -13,14 +22,18 @@
 		margin: 0 auto;
 		width: 80%;
 	}
+	h1 {
+	
+	}
 	/*****************
 		Content
 	*****************/
 	#content {
 		margin: 0 auto;
 		width: 80%;
-		border: 2px solid black;
-		min-height: 700px;;
+		border-radius: 25px;
+		min-height: 1000px;
+		background-color: #EEEEEE;
 	}
 
 	#navigation {
@@ -39,10 +52,11 @@
 	#nav-button li {
 		width: 150px;
 		height: 120px;
-		border: 2px solid black;
+		border: 1px solid black;
 		display: inline-block;
 		text-align: center;
 		margin-right: 25px;
+		margin-top: 25px;
 
 	}
 
@@ -61,14 +75,16 @@
 	h3 {
 		border-top: 2px dashed black;
 		clear: both;
+		margin: 25px;
+		padding: 15px;
 	}
 	/*****************
 		Footer
 	*****************/
 	#footer {
-		margin: 0 auto;
-		width: 80%;
-		border: 2px solid black;
+		width: 100%;
+		background-color: #000000;
+		min-height: 50px;
 	}
 
 }
@@ -77,9 +93,18 @@
 @media screen and (max-width: 600px) { 
 
 body {
-		background-color: #A4A4C5;
+		background-color: #4F8B16; /**Grønn**/
+		margin: 0px;
+		font-family: Tahoma;
 	}
-
+	/*****************
+		Top
+	*****************/
+	#top {
+		width: 100%;
+		background-color: #100A08;
+		min-height: 50px;
+	}
 	/*****************
 		Header
 	*****************/
@@ -93,8 +118,9 @@ body {
 	#content {
 		margin: 0 auto;
 		width: 80%;
-		border: 2px solid black;
-		min-height: 700px;;
+		border-radius: 25px;
+		background-color: #EEEEEE;
+		min-height: 700px;
 	}
 
 	#navigation {
@@ -116,7 +142,7 @@ body {
 		border: 2px solid black;
 		display: inline-block;
 		margin-right: 25px;
-		margin-top: 5px;
+		margin-top: 25px;
 		text-align: center;
 	}
 
@@ -129,14 +155,16 @@ body {
 	h3 {
 		border-top: 2px dashed black;
 		clear: both;
+		margin: 25px;
+		padding: 15px;
 	}
 	/*****************
 		Footer
 	*****************/
 	#footer {
-		margin: 0 auto;
-		width: 80%;
-		border: 2px solid black;
+		width: 100%;
+		background-color: #000000;
+		min-height: 50px;
 	}
 
 
@@ -145,9 +173,18 @@ body {
 @media screen and (min-width: 600px) and (max-width: 900px) { 
 
 body {
-		background-color: #A4A4D7;
+		background-color: #A4100F; /**Rød**/
+		margin: 0px;
+		font-family: Tahoma;
 	}
-
+	/*****************
+		Top
+	*****************/
+	#top {
+		width: 100%;
+		background-color: #100A08;
+		min-height: 50px;
+	}
 	/*****************
 		Header
 	*****************/
@@ -161,8 +198,9 @@ body {
 	#content {
 		margin: 0 auto;
 		width: 80%;
-		border: 2px solid black;
-		min-height: 700px;;
+		min-height: 700px;
+		border-radius: 25px;
+		background-color: #EEEEEE;
 	}
 
 	#navigation {
@@ -185,6 +223,7 @@ body {
 		display: inline-block;
 		margin-right: 25px;
 		text-align: center;
+		margin-top: 25px;
 	}
 
 	a {
@@ -196,22 +235,324 @@ body {
 	h3 {
 		border-top: 2px dashed black;
 		clear: both;
+		margin: 25px;
+		padding: 15px;
 	}
 	/*****************
 		Footer
 	*****************/
 	#footer {
-		margin: 0 auto;
-		width: 80%;
-		border: 2px solid black;
+		width: 100%;
+		background-color: #000000;
+		min-height: 50px;
 	}
 
 
 }
 /* target the maximum width of the device */
-@media only screen and (max-device-width: 480px) { }
+@media only screen and (max-device-width: 480px) {
+	body {
+		background-color: #CFB741; /**Gul**/
+		margin: 0px;
+		font-family: Tahoma;
+	}
+	/*****************
+		Top
+	*****************/
+	#top {
+		width: 100%;
+		background-color: #100A08;
+		min-height: 50px;
+	}
+	/*****************
+		Header
+	*****************/
+	#header {
+		margin: 0 auto;
+		width: 80%;
+	}
+	/*****************
+		Content
+	*****************/
+	#content {
+		margin: 0 auto;
+		width: 80%;
+		min-height: 700px;
+		border-radius: 25px;
+		background-color: #EEEEEE;
+	}
+
+	#navigation {
+
+	}
+
+	#nav-button {
+		list-style-type: none;
+		text-align: center;
+	}
+
+	#nav-button li:first-child {
+	
+	}
+
+	#nav-button li {
+		width: 150px;
+		height: 120px;
+		border: 2px solid black;
+		display: inline-block;
+		margin-right: 25px;
+		text-align: center;
+		margin-top: 25px;
+	}
+
+	a {
+		text-decoration: none;
+		color: #000000;
+		width: 100%;
+		height: 100%;
+	}
+	h3 {
+		border-top: 2px dashed black;
+		clear: both;
+		margin: 25px;
+		padding: 15px;
+	}
+	/*****************
+		Footer
+	*****************/
+	#footer {
+		width: 100%;
+		background-color: #000000;
+		min-height: 50px;
+	}
+}
 /* target the maximum width of the device and it's orientation */
-@media only screen and (max-device-width: 480px) and (orientation:portrait) { }
-@media only screen and (max-device-width: 480px) and (orientation:landscape) { }
+@media only screen and (max-device-width: 480px) and (orientation:portrait) { 
+body {
+		background-color: #7B628A; /**Lilla**/ /**Denne som vises på Lenas Iphone!**/
+		margin: 0px;
+		font-family: Tahoma;
+	}
+	/*****************
+		Top
+	*****************/
+	#top {
+		width: 100%;
+		background-color: #100A08;
+		min-height: 50px;
+	}
+	/*****************
+		Header
+	*****************/
+	#header {
+		margin: 0 auto;
+		width: 80%;
+	}
+	/*****************
+		Content
+	*****************/
+	#content {
+		margin: 0 auto;
+		width: 80%;
+		min-height: 700px;
+		border-radius: 25px;
+		background-color: #EEEEEE;
+	}
+
+	#navigation {
+
+	}
+
+	#nav-button {
+		list-style-type: none;
+		text-align: center;
+	}
+
+	#nav-button li:first-child {
+	
+	}
+
+	#nav-button li {
+		width: 150px;
+		height: 120px;
+		border: 2px solid black;
+		display: inline-block;
+		margin-right: 25px;
+		text-align: center;
+		margin-top: 25px;
+	}
+
+	a {
+		text-decoration: none;
+		color: #000000;
+		width: 100%;
+		height: 100%;
+	}
+	h3 {
+		border-top: 2px dashed black;
+		clear: both;
+		margin: 25px;
+		padding: 15px;
+	}
+	/*****************
+		Footer
+	*****************/
+	#footer {
+		width: 100%;
+		background-color: #000000;
+		min-height: 50px;
+	}
+}
+@media only screen and (max-device-width: 480px) and (orientation:landscape) { 
+body {
+		background-color: #1695B6; /**Blå**/
+		margin: 0px;
+		font-family: Tahoma;
+	}
+	/*****************
+		Top
+	*****************/
+	#top {
+		width: 100%;
+		background-color: #100A08;
+		min-height: 50px;
+	}
+	/*****************
+		Header
+	*****************/
+	#header {
+		margin: 0 auto;
+		width: 80%;
+	}
+	/*****************
+		Content
+	*****************/
+	#content {
+		margin: 0 auto;
+		width: 80%;
+		min-height: 700px;
+		border-radius: 25px;
+		background-color: #EEEEEE;
+	}
+
+	#navigation {
+
+	}
+
+	#nav-button {
+		list-style-type: none;
+		text-align: center;
+	}
+
+	#nav-button li:first-child {
+	
+	}
+
+	#nav-button li {
+		width: 150px;
+		height: 120px;
+		border: 2px solid black;
+		display: inline-block;
+		margin-right: 25px;
+		text-align: center;
+		margin-top: 25px;
+	}
+
+	a {
+		text-decoration: none;
+		color: #000000;
+		width: 100%;
+		height: 100%;
+	}
+	h3 {
+		border-top: 2px dashed black;
+		clear: both;
+		margin: 25px;
+		padding: 15px;
+	}
+	/*****************
+		Footer
+	*****************/
+	#footer {
+		width: 100%;
+		background-color: #000000;
+		min-height: 50px;
+	}
+}
 /* target the iPhone4 retina display */
-@media only screen and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) { }
+@media only screen and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+body {
+		background-color: #E4694E; /** Orange **/
+		margin: 0px;
+		font-family: Tahoma;
+	}
+	/*****************
+		Top
+	*****************/
+	#top {
+		width: 100%;
+		background-color: #100A08;
+		min-height: 50px;
+	}
+	/*****************
+		Header
+	*****************/
+	#header {
+		margin: 0 auto;
+		width: 80%;
+	}
+	/*****************
+		Content
+	*****************/
+	#content {
+		margin: 0 auto;
+		width: 80%;
+		min-height: 700px;
+		border-radius: 25px;
+		background-color: #EEEEEE;
+	}
+
+	#navigation {
+
+	}
+
+	#nav-button {
+		list-style-type: none;
+		text-align: center;
+	}
+
+	#nav-button li:first-child {
+	
+	}
+
+	#nav-button li {
+		width: 150px;
+		height: 120px;
+		border: 2px solid black;
+		display: inline-block;
+		margin-right: 25px;
+		text-align: center;
+		margin-top: 25px;
+	}
+
+	a {
+		text-decoration: none;
+		color: #000000;
+		width: 100%;
+		height: 100%;
+	}
+	h3 {
+		border-top: 2px dashed black;
+		clear: both;
+		margin: 25px;
+		padding: 15px;
+	}
+	/*****************
+		Footer
+	*****************/
+	#footer {
+		width: 100%;
+		background-color: #000000;
+		min-height: 50px;
+	}
+}
