@@ -505,11 +505,10 @@ body {
 		Content
 	*****************/
 	#content {
-		margin: 0 auto;
-		width: 80%;
+		width: 100%;
 		min-height: 700px;
-		border-radius: 25px;
 		background-color: #EEEEEE;
+		border-radius: 0px;
 	}
 
 	#navigation {
@@ -518,7 +517,8 @@ body {
 
 	#nav-button {
 		list-style-type: none;
-		text-align: center;
+		text-align: left;
+		margin-left: -5px;
 	}
 
 	#nav-button li:first-child {
@@ -526,11 +526,11 @@ body {
 	}
 
 	#nav-button li {
-		width: 150px;
-		height: 120px;
+		width: 110px;
+		height: 80px;
 		border: 2px solid black;
 		display: inline-block;
-		margin-right: 25px;
+		margin-right: 15px;
 		text-align: center;
 		margin-top: 25px;
 	}
@@ -554,5 +554,7 @@ body {
 		width: 100%;
 		background-color: #000000;
 		min-height: 50px;
+		margin-top: -25px;
+		margin-bottom: -25px;
 	}
 }
