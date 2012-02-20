@@ -76,19 +76,26 @@ RESET
 		Container
 	*****************/
 	#container {
-		margin: -60px auto -60px auto;
+		margin: -80px auto -60px auto;
 		width: 80%;
 		min-height: 1500px;
 		position: relative;
-		background: #ffffff url('images/marginleft.png') no-repeat left top;
+	/**	background: #ffffff url('images/marginleft.png') no-repeat left top; *//
+		
+		
 	}
 
 	/*****************
 		Navigation
 	*****************/
+	#navigation {
+		margin: 0 0 -20px 0;
+	}
+	
 	#main-nav {
 		list-style-type: none;
-		text-align: center;
+		text-align: right;
+		margin-right: 50px;
 	}
 
 	#main-nav li:first-child {
@@ -96,75 +103,50 @@ RESET
 	}
 
 	#main-nav li {
-		width: 150px;
-		height: 120px;
-		border: 1px solid black;
+		width: 120px;
+		height: 55px;
 		display: inline-block;
 		text-align: center;
-		margin-right: 25px;
-		margin-top: 25px;
-
+		margin: 0 0 -5px 0;
+		padding: 10px 10px 10px 10px;
+		background: #FFFFFF;
 	}
-
 	a {
 		text-decoration: none;
 		color: #000000;
-		width: 100%;
-		height: 100%;
-	}
-	
-	.photo {
-		width: auto;
-		height: 120px;
 	}
 	#tilbake {
 		float: right;
 	}
+	/*****************
+		Content
+	*****************/
+	#content {
+		background: #ffffff;
+		min-height: 1500px;
+		-moz-box-shadow: 0 0 5px #888888;
+		-webkit-box-shadow: 0 0 5px #888888;
+		box-shadow: 0 0 10px #888888;
+		border-bottom: 50px solid #d8d8d8;
+	}
+	
 	h3 {
-		border-top: 2px dashed black;
-		clear: both;
-		margin: 25px;
-		padding: 15px;
+		padding-left: 25px;
+		margin-top: -80px;
+		font-size: 150%;
+	}
+	/*****************
+		Search
+	*****************/
+	#search {
+		margin-left: 15px;
+		width: 30%;
 	}
 	#ja {
 		text-align: right;
 		margin-right: 15px;
 	}
-	#search {
-		margin-left: 15px;	
-		width: 30%;
-	}
-	select {
-		width: 30%;
-			margin-left: 15px;
-	}
-	.test {
-		float: left;
-		width: 24%;
-		margin-top: 2%;
-	}
-	.test1 {
-		float: left;
-		width: 24%;
-		margin-top: 4%;
-		margin-left: 1%;
-	}
-	#liste {
-		text-align: left;
-	}
-	.list {
-		list-style-type: none;
-		display: inline-block;
-		
-	}
-	.image {
-		width: 250px;
-		height: auto;
-		margin: 15px;
-	}
-	.title {
-		float: right;
-	}
+
 	/*****************
 		Footer
 	*****************/
@@ -172,7 +154,9 @@ RESET
 		width: 100%;
 		background-color: #0189af;
 		min-height: 150px;
-		
+	}
+	p {
+		padding: 7% 0 0 15%;
 	}
 
 }
