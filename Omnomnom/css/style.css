@@ -3,7 +3,7 @@
 
 
 	body {
-		background-color: #A4A4A4; /**Grå**/
+		background-color: #d8d8d8; /**Grå**/
 		margin: 0px;
 		font-family: Tahoma;
 	}
@@ -12,14 +12,14 @@
 	*****************/
 	#top {
 		width: 100%;
-		background-color: #100A08;
-		min-height: 50px;
+		background-color: #0189af;
+		min-height: 150px;
 	}
 	/*****************
 		Header
 	*****************/
 	#header {
-		margin: 0 auto;
+		margin: 0 0 0 0;
 		width: 80%;
 	}
 	h1 {
@@ -31,9 +31,8 @@
 	#content {
 		margin: 0 auto;
 		width: 80%;
-		border-radius: 25px;
 		min-height: 1000px;
-		background-color: #EEEEEE;
+		background-color: #ffffff;
 	}
 
 	#navigation {
@@ -124,8 +123,8 @@
 	*****************/
 	#footer {
 		width: 100%;
-		background-color: #000000;
-		min-height: 50px;
+		background-color: #0189af;
+		min-height: 150px;
 	}
 
 }
