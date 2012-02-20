@@ -40,16 +40,16 @@
 
 	}
 
-	#nav-button {
+	#main-nav {
 		list-style-type: none;
 		text-align: center;
 	}
 
-	#nav-button li:first-child {
+	#main-nav li:first-child {
 
 	}
 
-	#nav-button li {
+	#main-nav li {
 		width: 150px;
 		height: 120px;
 		border: 1px solid black;
@@ -81,7 +81,8 @@
 		padding: 15px;
 	}
 	#ja {
-		text-align: center;
+		text-align: right;
+		margin-right: 15px;
 	}
 	#search {
 		margin-left: 15px;	

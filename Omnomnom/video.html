@@ -1,42 +1,58 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Omnomnom</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="css/style.css" type="text/css"/>
+	<head>
+		<title>Omnomnom</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/style.css" type="text/css"/>
 
-</head>
+		<!-- html5.js for IE less than 9 -->
+		<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
 
-<body>
-	<div id="top">
-	
-	</div>
-	<div id="header">
-		<h1>Omnomnom</h1>
-	</div>
-	<div id="content">
-		<div id="navigation">
-			<ul id="nav-button">
-				<li><a href="#"><img class="photo" src="play2.png" alt="PLAY" /></a></li>
-				<li><a href="#"><img class="photo" src="rec1.png" alt="STREAM" /></a></li>
-			</ul>
+		<!-- css3-mediaqueries.js for IE less than 9 -->
+		<!--[if lt IE 9]>
+		<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+		<div id="top">
+		
 		</div>
-		<a href="index.html" id="tilbake">Tilbake<a/>
-		<h3>Videovisning</h3>
-		<p id="ja"><label for="search">Search</label><input type="text" id="search" /> 
-		<select>
-			<option>Test</option>
-			<option>Hest</option>
-			<option>Pest</option>
-			<option>Lest</option>
-			</select></p>
-		<div id="videovisning">
+		<header	id="header">
+			<h1>Omnomnom</h1>
+		</header> <!--end header-->
+		
+		<div id="container">
+			<nav id="navigation">
+				<ul id="m<in-nav">
+					<li><a href="#"><img class="photo" src="play2.png" alt="PLAY" /></a></li>
+					<li><a href="#"><img class="photo" src="rec1.png" alt="STREAM" /></a></li>
+				</ul>
+			</nav> <!--end nav-->	
 			
-		</div>
-	</div>
-	<div id="footer">
-		<p>her kommer det kontaktinfo</p>
-	</div>
-</body>
+			<div id="content">
+				<a href="index.html" id="tilbake">Tilbake<a/>
+				<h3>Videovisning</h3>
+				<p id="ja"><label for="search">Search</label><input type="text" id="search" /> 
+				<select>
+					<option>Test</option>
+					<option>Hest</option>
+					<option>Pest</option>
+					<option>Lest</option>
+					</select></p>
+				<div id="videovisning">
+					
+				</div>
+			</div> <!--end content-->
+			
+		</div> <!--end container-->
+		
+		<footer id="footer">
+			<p>her kommer det kontaktinfo</p>
+		</footer> <!--end footer-->
+		
+	</body>
 
 </html> 

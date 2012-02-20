@@ -1,50 +1,53 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Omnomnom</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="css/style.css" type="text/css"/>
+	<head>
+		<title>Omnomnom</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/style.css" type="text/css"/>
 
-</head>
+		<!-- html5.js for IE less than 9 -->
+		<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
 
-<body>
-	<div id="top">
+		<!-- css3-mediaqueries.js for IE less than 9 -->
+		<!--[if lt IE 9]>
+		<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+		<![endif]-->
+
+	</head>
+
+	<body>
+		<div id="top">
 	
-	</div>
-	<div id="header">
-		<h1> Omnomnom </h1>
-	</div>
-	<div id="content">
-		<div id="navigation">
-			<ul id="nav-button">
-				<li><a href="video.html"><img class="photo" src="play2.png" alt="PLAY" /></a></li>
-				<li><a href="#"><img class="photo" src="rec1.png" alt="STREAM" /></a></li>
-			</ul>
 		</div>
-		<h3>Forelesningsopptak</h3>
-		<p id="ja"><label for="search">Search</label><input type="text" id="search" /> 
-		<select>
-			<option>Test</option>
-			<option>Hest</option>
-			<option>Pest</option>
-			<option>Lest</option>
-			</select></p>
-		<div id="video">
-			<p class="test"><img class="image" src="lena.jpg" /></p>
-			<p class="test1">Hvor dukker du opp? Hei og hopp du er topp!</p>
-			<p class="test"><img class="image" src="tina.jpg" /></p>
-			<p class="test1"> Og du dukker opp hvor?</p>
+		<header id="header">
+			<h1> Omnomnom </h1>
+		</header>
+		<div id="container">
 		
-			<!--<ul id="liste">
-				<li class="list"><a href="#"><img class="image" src="lena.jpg" /><p class="title">Tittel</p><p class="title">Beskrivelse</p></a></li>
-				<li class="list"><a href="#"></a>Og dette da?</li>
-				<li class="list"><a href="#"><img class="image" src="tina.jpg" /></a></li>
-			</ul>-->
-		</div>
-	</div>
-	<div id="footer">
-		<p>her kommer det kontaktinfo</p>
-	</div>
-</body>
+			<nav id="navigation">
+				<ul id="main-nav">
+					<li><a href="video.html"><img class="photo" src="play2.png" alt="PLAY" /></a></li>
+					<li><a href="#"><img class="photo" src="rec1.png" alt="STREAM" /></a></li>
+				</ul>
+			</nav> <!--end nav-->	
+			
+			<div id="content">
+				<h3>Forelesningsopptak</h3>
+				<p id="ja"><label for="search">Search</label><input type="text" id="search" /> 
+			
+				<div id="video">
+				
+				</div>
+			</div> <!--end content-->
+			
+		</div> <!--end container-->
+		
+		<footer id="footer">
+			<p>her kommer det kontaktinfo</p>
+		</footer> <!--end footer-->
+		
+	</body>
 
 </html> 
