@@ -7,20 +7,16 @@
 		margin: 0px;
 		font-family: Tahoma;
 	}
-	/*****************
-		Top
-	*****************/
-	#top {
-		width: 100%;
-		background-color: #0189af;
-		min-height: 150px;
-	}
+
 	/*****************
 		Header
 	*****************/
 	#header {
-		margin: 0 0 0 0;
-		width: 80%;
+	
+		width: 100%;
+		background-color: #0189af;
+		min-height: 150px;
+
 	}
 	h1 {
 	
@@ -28,11 +24,12 @@
 	/*****************
 		Content
 	*****************/
-	#content {
-		margin: 0 auto;
+	#container {
+		margin:-60px auto 100px auto;
 		width: 80%;
 		min-height: 1000px;
-		background-color: #ffffff;
+		position:relative;
+		background:#ffffff url('images/marginleft.png') no-repeat left top;
 	}
 
 	#navigation {
