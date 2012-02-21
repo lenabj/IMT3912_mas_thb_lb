@@ -146,7 +146,15 @@ RESET
 		text-align: right;
 		margin-right: 15px;
 	}
-
+	/*****************
+		Login
+	*****************/
+	#login {
+		margin: 150px 150px 150px 250px;
+	}
+	input {
+		margin: 5px 0 5px 0;
+	}
 	/*****************
 		Footer
 	*****************/

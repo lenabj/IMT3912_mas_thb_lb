@@ -34,11 +34,14 @@
 			</nav> <!--end nav-->	
 			
 			<div id="content"> <!--start content-->
-				<p id="ja"><label for="search">Search</label><input type="text" id="search" /> 
-			
-				<h3>Forelesningsopptak</h3>
+				<p></p>
+				
+				<h3>Logg inn</h3>
 				<div id="video">
-				<a href="login.php"><p>Logg inn</p></a>
+					<form id="login">
+						Brukernavn: <input type="text" name="username" /><br />
+						Passord: <input type="text" name="pwd" /><br />
+					</form>
 				</div>
 			</div> <!--end content-->
 			
