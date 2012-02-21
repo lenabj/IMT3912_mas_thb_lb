@@ -98,17 +98,25 @@ CONTAINER STYLING
 
 #tabone{
 	float: left;
-	margin: 30px;
+	margin-top: 30px;
+	margin-right: 30px;
+	margin-left: 100px;
+	border:2px solid black;
+	padding: 40px;
 }
 
 #tabtwo{
 	float : left;
 	margin: 30px;
+	border:2px solid black;
+	padding: 40px;
 }
 
 #tabthree{
 	float : left;
 	margin: 30px;
+	border:2px solid black;
+	padding: 40px;
 }
 
 #content{
