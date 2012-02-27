@@ -18,6 +18,7 @@
 	</head>
 
 	<body>
+	
 		<header id="header"> <!--start header-->
 			<a href="index.html"><h1> Omnomnom </h1></a>
 		</header> <!--end header-->
@@ -29,25 +30,36 @@
 				<ul id="main-nav">
 					<li><a href="video.html">Opptak</a></li>
 					<li><a href="stream.html">Stream</a></li>
-
 				</ul>
 			</nav> <!--end nav-->	
 			
 			<div id="content"> <!--start content-->
-<<<<<<< HEAD
-				<a href="index.html" id="tilbake">Tilbake<a/>
-				<h3>Videovisning</h3>
-				<p id="ja"><label for="search">Search</label><input type="text" id="search" /> </p>
-			
-				<div id="videovisning">
-					
-=======
 				<p id="ja"><label for="search">Search</label><input type="text" id="search" /> 
 			
-				<h3>Video</h3>
+				<h3>Forelesningsopptak</h3>
 				<div id="video">
-				
->>>>>>> 677acba3fa7a5fc346c3174bca44a811d53cf93f
+				<a href="login.php"><p>Logg inn</p></a>
+				<?php
+
+$student = '090912';
+
+$ldapds = @ldap_connect("ldap://ldap.hig.no");
+if(!$ldapds) {
+echo "Can't connect to LDAP server!\n";
+exit(1);
+}
+
+$sr = ldap_search($ldapds, "ou=students,ou=courses,ou=groups,dc=hig,dc=no", "memberUid=$student", array('cn', 'description', 'memberuid'));
+$entries = ldap_get_entries($ldapds, $sr);
+
+echo "$student tar følgende fag:\n";
+for($i = 0; $i < $entries['count']; $i++) {
+echo "\tFagkode: ".$entries[$i]['cn'][0]." Beskrivelse: ".$entries[$i]['description'][0]."\n";
+}
+
+@ldap_close($ldapds);
+
+?>
 				</div>
 			</div> <!--end content-->
 			
